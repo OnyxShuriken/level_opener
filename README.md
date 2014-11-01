@@ -40,3 +40,8 @@ This will allow you to draw the data onto tiles. You would have to loop through 
 [1] [2] [3] [4] [5] [6]
 [1] [2] [3] [4] [5] [6]
 ```
+You can also call a tile's coordinates with:
+```
+level[y][x]
+```
+where y is the tile's y coordinate and x is the tile's x coordinate. This can be useful for reading and writing to a tile with its position, and also moving relative to tile's coordiante and not screen's coordinates.
